@@ -1,0 +1,40 @@
+ASP.net notest
+
+
+make sure the different versions of the datalibrary and the main project match each other or else they cannot find the reference 	
+
+  <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.5.2.0" newVersion="1.5.2.14234"/>
+      </dependentAssembly>
+    </assemblyBinding>
+
+--did not work
+
+reinstalling webgrease worked
+
+
+setting up auto incremeent for primary key:
+
+
+To set up auto-increment in SQL Server Management Studio:
+
+Open your table in Design
+Select your column and go to Column Properties
+Under Indentity Specification, set (Is Identity)=Yes and Indentity Increment=1
+
+remmeber to publish the table 
+
+
+AJAX: 
+
+put the Ajax call in a Razor view
+
+the path controller is in the controller folder/ 
+
+ASP.net webproject and then select MVC 
+
+
+
+

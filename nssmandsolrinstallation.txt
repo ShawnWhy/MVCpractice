@@ -1,0 +1,20 @@
+install solr 
+test solr by running it solr foldr/bin/ .\start 
+
+and then goto localhost 8983 to test 
+
+in stall nssm 
+
+must install the pre release to be compatible with windows 10
+
+goto 
+
+C:\coding_projects\sitecore practice2\nssm2\win64>nssm install solr
+
+
+parameters :
+
+C:\coding_projects\sitecore practice2\solr-7.7.3\bin\solr.cmd
+C:\coding_projects\sitecore practice2\solr-7.7.3\bin
+
+start -f -p 8983
